@@ -1,0 +1,68 @@
+#login-section {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#login-section .login-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    text-align: center;
+    background: #fff;
+    border-radius: .5rem;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 30rem;
+}
+
+#login-section .login-container h2 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#login-section .form-group {
+    margin-bottom: 1.5rem;
+}
+
+#login-section .form-group label {
+    display: block;
+    margin-bottom: .5rem;
+    color: #333;
+}
+
+#login-section .form-group input {
+    width: 100%;
+    padding: .8rem;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+}
+
+#login-section .form-group button {
+    width: 100%;
+    padding: 1rem;
+    background-color: #28a745;
+    border: none;
+    border-radius: .5rem;
+    color: #fff;
+    font-size: 1.6rem;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#login-section .form-group button:hover {
+    background-color: darken(#28a745, 10%);
+}
+
+#login-section .error-message {
+    color: red;
+    margin-top: 1rem;
+    display: none;
+    text-align: center;
+}
